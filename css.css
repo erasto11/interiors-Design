@@ -1,0 +1,91 @@
+html{
+    min-height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),url(./Image/sofa.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+    
+    
+}
+.flex-container{
+    display: flex;
+    margin-top: 40px;
+}
+.nav-item{
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 80%;
+gap: 4em;
+color: rgb(241, 239, 236);
+font-size: large;
+
+}
+li{
+    list-style: none;
+}
+button{
+ 
+}
+.nav{
+    
+    display: flex;
+    flex-basis:85%;
+    justify-content: center;
+}
+.btn{
+    flex-basis:15%;
+    text-align: center;
+    margin-top: 12px;
+
+}
+.form{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.search{
+    
+}
+input{
+    width: 30em;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+    border-width: 0cap;
+    color: #442a07;
+    margin-top: 2px;
+    padding-left: 5px;
+}
+button{
+    background-color: rgba(90, 59, 2, 0.877);
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    border-width: 0px;
+
+}
+image{
+    filter:brightness(50%);
+}
+.title{
+    text-align: center;
+    color: rgb(192, 165, 107);
+}
+h1{
+    font-size: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: large;
+    color:white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
